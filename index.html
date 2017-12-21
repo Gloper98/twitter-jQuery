@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Twitter</title>
+        <link rel="icon" href="assets/images/favicom.png"  type="image/png"> 
+        <link rel="stylesheet" href="assets/icons/icomoon/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+       <header>
+           <nav>
+               <div class="navigator tools">
+                   <ul class="menu">
+                       <li class="menu-option"><span class="icon-n icon-home"></span><p class="paragraph-n">home</p></li>
+                       <li class="menu-option"><span class="icon-n icon-bell"></span><p class="paragraph-n">notifications</p></li>
+                       <li class="menu-option"><span class="icon-n icon-mail-envelope-closed"></span><p class="paragraph-n">messages</p></li>
+                   </ul>
+               </div>
+               <div class="navigator feed">
+                   <span class="icon-brand"></span>
+               </div>
+               <div class="navigator tools-right">
+               <div class="navigator search">
+                   <form>
+                       <input class="input-header" placeholder="Search Twitter" type="search"><button class="icon-search"></button>
+                   </form>
+               </div>
+               <div class="navigator profile">
+               <div id ="photo_container" class="navigator profile-photo">
+                   <img id="photograph" class="photo" src="assets/images/lauren-2.jpg" alt="profile">
+               </div>
+               </div>
+               <div class="navigator tweet-box">
+               <div class="navigator tweet">
+                   <p class="tweet-button">Tweet</p>
+               </div>
+               </div>
+               </div>
+           </nav>
+       </header>
+       <section>
+          <div class="feed-section">
+              <img class="front" src="assets/images/front.png" alt="front">
+          </div>
+          <div class="feed-section news-feed">
+              <div  class="tweet-maker">
+                  <div class="user">
+                      <img class="user-photo" src="assets/images/lauren-2.jpg" alt="user">
+                  </div>
+                  <div class="input">
+                  <div id="input-write" class="input-tweet" contentEditable=true ></div>
+                  
+                  <div class="input-icons"><i class="fa fa-check-circle" aria-hidden="true"></i><b id="counter">0</b></div>
+                  </div>
+                  <div class="icons-feed">
+                  <ul class="icons-feed-tools">
+                      <li class="icons-tweet"><span class="icon-picture"></span></li>
+                      <li class="icons-tweet"><span class="icon-stats-bars2"></span></li>
+                      <li class="icons-tweet"><span class="icon-refresh"></span></li>
+                      <li><button id="submit" class="submit-button">Tweet</button></li>
+                  </ul>
+                  
+                  </div>
+              </div>
+              <div  id="maker" class="feeder">
+                  <div id="feeder-news"></div>
+              </div>
+          </div>
+           
+       </section>
+       
+        <script type="text/javascript" src="js/app.js">
+        </script>
+    </body>
+</html>

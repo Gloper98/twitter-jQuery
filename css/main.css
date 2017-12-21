@@ -1,0 +1,227 @@
+*{
+    font-family:sans-serif;
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+    display: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d7dee8;
+}
+header{
+    /*outline: 1px solid blue;*/
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #b8bcc1;
+    z-index: 50;
+}
+nav {
+    /*outline: 1px solid red;*/
+}
+.menu {
+   /* outline: 1px solid green;*/
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+.tools {
+    margin: 10px 0 10px 5%;
+}
+.navigator{
+    display: inline-block;
+}
+.menu-option {
+    display: inline-block;
+}
+.icon-n {
+    display: inline-block;
+    color:#727782;
+    margin-left: 15px;
+}
+.icon-mail-envelope-closed {
+    font-weight: 600;
+}
+.paragraph-n {
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #727782;
+    margin: 0 7px;
+    cursor: pointer;
+}
+.fa-check-circle {
+    color: #ffa0d2;
+}
+.icon-brand{
+    font-size: 20px;
+    margin: 10px 185px 10px 235px;
+    cursor: pointer;
+}
+.profile {
+    margin: 15px 10px;
+}
+form {
+    border: 1px solid #cdd0d6;
+    width: 250px;
+    height: 30px;
+}
+.input-header {
+    height: 30px;
+    width: 200px;  
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    font-size: 15px;
+}
+.profile-photo,.photo, .user, .user-photo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.feed_style {
+  margin: 15px;  
+    display: inline-block;
+}
+.tweet {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ffa0d2;
+    border-radius: 38%;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.text-button {
+   margin: 0;
+}
+
+.tools-right {
+   float: right;
+   margin-right: 5%;
+}
+.tweet-box {
+    margin: 10px 10px;
+}
+.icon-search {
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.icon-n:hover {
+    color: #ffa0d2;
+}
+.paragraph-n:hover {
+    color: #ffa0d2;
+}
+form:hover {
+    border: 2px solid #ffa0d2;
+}
+section {
+    padding-top: 8%;
+    padding-left: 90px;
+    padding-right: 40px;
+}
+.news-feed {
+   /* outline: 1px solid red;*/
+    background-color: #fff;
+    width: 500px;
+    margin-left: 40px;
+    height: auto;
+    position: absolute;
+}
+.tweet-maker {
+   /* outline: 1px solid green;*/
+    margin: 0px;
+    padding: 15px;
+    background-color: #ffe5fd;
+}
+.input-tweet {
+    outline: 2px solid #ffaaf8;
+    width: 380px;
+    border-radius: 30px;
+}
+.input-icons {
+   /* outline: 1px solid black;*/
+    margin: 70px 5px 5px 5px;
+    height: 30px;
+    float: right;
+}
+.feed-section {
+    display: inline-block;
+}
+.user, .input-tweet {
+    display: inline-block;
+}
+.user {
+    position: absolute;
+}
+.input-tweet {
+    margin: 0px 0 10px 60px;
+}
+.icons-feed-tools {
+    list-style: none;
+    padding-left: 0;
+}
+.icons-tweet{
+    display: inline-block;
+    margin: 0px 10px 10px 60px;
+    cursor: pointer;
+    color: #ffa0d2;
+}
+.icons-tweet:hover{
+    color: deeppink;
+}
+.input {
+   /* outline: 1px solid purple;*/
+    height: auto;
+}
+.posts {
+    margin: 0px 0 10px 60px;
+    width: 380px;
+    padding: 10px;
+   word-wrap: break-word;
+   /* border: 1px solid grey;*/
+}
+.first-color {
+    color: #000;
+}
+.second-color {
+    color: yellow;
+}
+.third-color {
+    color: red;
+}
+.style {
+    max-width: 200px;
+    width: 100%;
+}
+.style_user_post {
+    display: inline-block;
+    
+}
+.letter_style1 {
+    font-weight: 600;
+}
+.letter_style2 {
+    font-family: cursive;
+    color:  #727782;
+}
+.submit-button {
+    background-color: #ffa0d2;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 7px;
+    float: right;
+    outline: none;
+    margin: 15px;
+}
